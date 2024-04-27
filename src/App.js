@@ -14,11 +14,13 @@ function App() {
         <h2>
           {data.subtitle}
         </h2>
+        <div className='icon-wrapper'>
         {
           Object.keys(data.links).map((keys)=>{
             return <SocialIcon url={data.links[keys]}/>;
           })
         }
+        </div>
         <h3>
           {data.sections[0].title}
         </h3>
