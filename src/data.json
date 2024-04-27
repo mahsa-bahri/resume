@@ -1,0 +1,36 @@
+{
+  "title": "hi i am Mahsa Bahri.",
+  "subtitle": "Front-end developer",
+  "links": {
+    "github": "https://github.com/mahsa-bahri",
+    "linkdine": "https://www.linkedin.com/in/mahsa-bahari-63654984/"
+  },
+  "sections": [
+    {
+      "title": "About",
+      "items": [
+        {
+          "type": "p",
+          "content": "I am interested in learning web develpoment.And currently i am improving my front-end skills and Reactjs."
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "items": [
+        {
+          "type": "card",
+          "content": {
+            "title": "react"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "title": "javascript"
+          }
+        }
+      ]
+    }
+  ]
+}
